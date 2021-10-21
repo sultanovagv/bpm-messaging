@@ -1,0 +1,44 @@
+server:
+  port: 9000
+
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  cloud:
+    function:
+      definition: receiver
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+      bindings:
+        receiver-in-0:
+          destination: publisher
+
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5435/bpm
+    username: bpm
+    password: admin123
+    driver-class-name: org.postgresql.Driver
+
+
+template:
+
+
+
+#camunda:
+#  bpm:
+#    history-level: AUDIT
+#    deployment-resource-pattern: classpath:processes/*.bpmn, classpath:processes/*.dmn
+#    admin-user.id: demo
+#    admin-user.password: demo
+#    default-number-of-retries: 1
+#    default-serialization-format: application/json
+#    processKey: bpm-messaging
+#    job-execution:
+#      deployment-aware: true
+#      max-jobs-per-acquisition: 500
