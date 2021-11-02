@@ -1,6 +1,6 @@
-package com.example.socketkafkatester.event;
+package messaging.app.event;
 
-import com.example.socketkafkatester.event.model.Message;
+import messaging.app.event.model.Message;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.example.socketkafkatester.model;
+package messaging.app.model;
 
 import lombok.Data;
 

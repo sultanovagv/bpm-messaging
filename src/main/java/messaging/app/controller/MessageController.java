@@ -1,7 +1,7 @@
-package com.example.socketkafkatester.controller;
+package messaging.app.controller;
 
-import com.example.socketkafkatester.event.MessageProducer;
-import com.example.socketkafkatester.event.model.Message;
+import messaging.app.event.MessageProducer;
+import messaging.app.event.model.Message;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

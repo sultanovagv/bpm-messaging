@@ -1,7 +1,7 @@
-package com.example.socketkafkatester.config.security;
+package messaging.app.config.security;
 
-import com.example.socketkafkatester.error.UserCommonException;
-import com.example.socketkafkatester.repository.UserRepository;
+import messaging.app.error.UserCommonException;
+import messaging.app.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

@@ -1,4 +1,4 @@
-package com.example.socketkafkatester.entity;
+package messaging.app.entity;
 
 import lombok.Getter;
 import lombok.Setter;

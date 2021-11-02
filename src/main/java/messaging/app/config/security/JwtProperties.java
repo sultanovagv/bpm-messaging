@@ -1,4 +1,4 @@
-package com.example.socketkafkatester.config.security;
+package messaging.app.config.security;
 
 import lombok.Getter;
 import lombok.Setter;

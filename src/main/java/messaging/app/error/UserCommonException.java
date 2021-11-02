@@ -1,4 +1,4 @@
-package com.example.socketkafkatester.error;
+package messaging.app.error;
 
 public class UserCommonException extends RuntimeException {
 

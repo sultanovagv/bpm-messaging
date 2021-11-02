@@ -1,6 +1,6 @@
-package com.example.socketkafkatester.repository;
+package messaging.app.repository;
 
-import com.example.socketkafkatester.entity.UserEntity;
+import messaging.app.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

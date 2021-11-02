@@ -1,15 +1,12 @@
-package com.example.socketkafkatester.service;
+package messaging.app.service;
 
-import com.example.socketkafkatester.config.security.CustomAuthenticationProvider;
-import com.example.socketkafkatester.config.security.TokenCreator;
-import com.example.socketkafkatester.entity.UserEntity;
-import com.example.socketkafkatester.error.UserCommonException;
-import com.example.socketkafkatester.model.UserRequest;
-import com.example.socketkafkatester.repository.UserRepository;
+import messaging.app.config.security.CustomAuthenticationProvider;
+import messaging.app.config.security.TokenCreator;
+import messaging.app.entity.UserEntity;
+import messaging.app.model.UserRequest;
+import messaging.app.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

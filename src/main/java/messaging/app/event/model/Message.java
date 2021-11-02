@@ -1,4 +1,4 @@
-package com.example.socketkafkatester.event.model;
+package messaging.app.event.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
