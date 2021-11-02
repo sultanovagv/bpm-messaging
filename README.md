@@ -1,1 +1,1 @@
-# bpm-messaging
+# messaging-app

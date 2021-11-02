@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.env.Environment;
 
 @SpringBootApplication
-public class BpmMessagingApplication {
+public class MessagingApplication {
 
-    private static final Logger log = LoggerFactory.getLogger(BpmMessagingApplication.class);
+    private static final Logger log = LoggerFactory.getLogger(MessagingApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(BpmMessagingApplication.class);
+        SpringApplication app = new SpringApplication(MessagingApplication.class);
         Environment env = app.run(args).getEnvironment();
         log.info("\n----------------------------------------------------------\n\t localhost : {}", env.getProperty("server.port"));
     }
