@@ -13,7 +13,7 @@ public class MessageController {
 
     private final MessageProducer messageProducer;
 
-    @PostMapping("send")
+    @PostMapping("/send")
     public void sendToUser(@RequestBody Message message) {
         message.setUsername("sultanovagv");
         messageProducer.sendToUser(message);
